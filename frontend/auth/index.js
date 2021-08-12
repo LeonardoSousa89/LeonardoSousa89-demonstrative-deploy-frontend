@@ -10,7 +10,7 @@ $('#button').click(function(){
 	
 	if(admInput  == 'mendes' && passInput == '1234' ||
 	   admInput  == 'admin' && passInput == 'admin'){
-	   document.location.href = 'auth/index.html'
+	   document.location.href = 'admin/index.html'
 	}else if(admInput  != 'mendes' || passInput != '1234' ||
 	         admInput  != 'admin'  || passInput != 'admin'){
 		alert('invalid data!')
